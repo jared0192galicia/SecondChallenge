@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+header {
+    font-size: 1.6rem;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    height: 22vh;
+    font-size: 1.8rem;
+    margin-top: calc(100% - 22vh);
+}
