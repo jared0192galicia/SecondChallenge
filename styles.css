@@ -5,14 +5,46 @@
 html{
     font-size: 62.5%;
 }
+body {
+    display: grid;
+    /* flex-direction: column; */
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
 header {
     font-size: 1.6rem;
 }
-
+.person {
+    display: inline-block;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    top: auto;
+}
+.pz {
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+}
+.head {
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    margin-left:10rem;
+}
+.chest {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 30%;
+    margin: .1rem 10rem;
+}
 footer {
+    display: flex;
+    align-items: center;
+    color: aliceblue;
     background-color: black;
     display: flex;
+    min-height: 100%;
     height: 22vh;
     font-size: 1.8rem;
-    margin-top: calc(100% - 22vh);
 }
