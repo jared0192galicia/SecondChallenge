@@ -33,10 +33,26 @@ header {
     margin-left:10rem;
 }
 .chest {
+    display: inline-block;
+    position: absolute;
     height: 10rem;
     width: 10rem;
     border-radius: 30%;
     margin: .1rem 10rem;
+}
+.arm {
+    position: relative;
+    position: absolute;
+    height: 10rem;
+    width: 1.5rem;
+    border-radius: 20%;
+    margin-top: 1.5rem;
+    margin-left: 8.2rem;
+    transform: rotate(10deg);
+}
+.left {
+    margin-left: 20.4rem;
+    transform: rotate(-10deg);
 }
 footer {
     display: flex;
