@@ -1,6 +1,6 @@
 const head = document.querySelector('.head');
 const chest = document.querySelector('.chest');
-
+// prueba de conexion
 const frases = ["sandia", "fresa", "piña", "toronja", "melon", "frambuesa"];
 
 function main(){
